@@ -4,7 +4,7 @@ public class Maths {
 	
 	
 	public void add() {
-		
+		//Addition of two number
 		int num1=5;
 		int num2=20;
 		int total=num1+num2;
