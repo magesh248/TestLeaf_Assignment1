@@ -55,7 +55,7 @@ public class CreateLead {
 		WebElement gMail= driver.findElement(By.id("createLeadForm_primaryEmail"));
 		gMail.sendKeys("mageshwar3724@gmail.com");
 		
-		//select funtion
+		//select function
 		
 		WebElement stateSelection= driver.findElement(By.name("generalStateProvinceGeoId"));
 		Select select =new Select(stateSelection);
