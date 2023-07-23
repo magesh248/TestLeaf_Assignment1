@@ -77,12 +77,15 @@ public class CreateLead {
 		
 		Thread.sleep(5000);
 		
-		//descripTion.clear();
+		WebElement clearDescripTion= driver.findElement(By.id("updateLeadForm_description"));
+		clearDescripTion.clear();
 			
-		System.out.println("cleared");
+		System.out.println("Dsicription is cleared");
 		
 		WebElement importantField= driver.findElement(By.name("importantNote"));
 		importantField.sendKeys("Cleared the description and updated the important field");
+
+		System.out.println("Important field is updated");
 		
 		WebElement upDate= driver.findElement(By.className("smallSubmit"));
 		upDate.click();
