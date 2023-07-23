@@ -24,7 +24,7 @@ public class CreateLead {
 		WebElement subMit= driver.findElement(By.className("decorativeSubmit"));
 		subMit.click();
 		
-		WebElement CRM_Click= driver.findElement(By.xpath("//*[@id=\"button\"]/a"));
+		WebElement CRM_Click= driver.findElement(By.linkText("CRM/SFA"));
 		CRM_Click.click();
 		
 		WebElement Lead_Click= driver.findElement(By.partialLinkText("Leads"));
